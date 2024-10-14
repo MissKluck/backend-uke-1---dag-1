@@ -66,12 +66,12 @@ class Program
         bool canEnterTheClub = false;
         int age = 19;
         // ! blir en "shorthand" for å reassigne canEnterClub til true, dvs; canEnterClub = true; er det samme som : !canEnterTheClub dersom det originalt var tildelt
-        
-        if(age = >= 18 && !canEnterTheClub)
+
+        if (age >= 18 && !canEnterTheClub)
         {
             Console.WriteLine("You can enter the club!");
         }
-        else{
+        else {
             Console.WriteLine("You cannot enter the club");
         }
     }
