@@ -45,7 +45,7 @@ class Program
         **/
         string[] hanldeListe = {"melk", "brød", "egg", "brus", "middag", "snus"};
         Console.WriteLine("Her er handlelisten din");
-        for (int i = 0; i < hanldeListe.Length; i++)
+        for (int i = 2; i < 4; i++)
         {
             Console.WriteLine(hanldeListe[i]); // henter ut strings fra index[] av i
         }
